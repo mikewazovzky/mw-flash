@@ -1,6 +1,6 @@
-### Vue.js <flash> component
+### Vue.js `<flash>` component
 ### Description
-Simple <flash> Vue.js componentExample <flash> component included.
+Simple `<flash>` Vue.js component.
 ### Version 0.0.2 Original project setup
 ### Change log
 0.0.2 Original project setup   
@@ -21,6 +21,7 @@ Use component
 <flash :message="{ message: 'Some text', level: 'danger'}"></flash>
 ```   
 Avalable level flags are: `['success', 'info', 'warning', 'danger']`.   
+  
 To make `flash` function available globally turn `events` flag  `on`  
 ```xml
 <flash message="Some text" events="on"></flash>
